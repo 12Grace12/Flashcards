@@ -16,22 +16,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ts8-3W-8VO">
-                                <rect key="frame" x="48" y="263" width="315" height="190"/>
+                                <rect key="frame" x="50" y="250" width="315" height="269"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watermelon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7c-JA-JCY">
-                                        <rect key="frame" x="0.0" y="1" width="315" height="189"/>
+                                        <rect key="frame" x="0.0" y="1" width="315" height="268"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="backgroundColor" red="0.46558803170000002" green="0.78039215689999997" blue="0.46453753460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What commonly round fruit can also be grown as a square?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzD-ZB-qsa">
-                                        <rect key="frame" x="0.0" y="0.0" width="315" height="190"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="269"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.46558803171004115" green="0.78039215689999997" blue="0.464537534594052" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -42,6 +42,39 @@
                                     <outletCollection property="gestureRecognizers" destination="iiV-Gc-cIM" appends="YES" id="AII-ed-Q9O"/>
                                 </connections>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDl-tE-AUs">
+                                <rect key="frame" x="50" y="587" width="315" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Mango">
+                                    <color key="titleColor" red="0.46558803170000002" green="0.78039215689999997" blue="0.46453753460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOnBtn1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NH6-DS-rgZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBZ-9O-h1N">
+                                <rect key="frame" x="50" y="667" width="315" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Watermelon">
+                                    <color key="titleColor" red="0.46558803170000002" green="0.78039215689999997" blue="0.46453753460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOnBtn2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ACs-v7-TvD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qx0-ap-xwc">
+                                <rect key="frame" x="50" y="745" width="315" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Kiwi">
+                                    <color key="titleColor" red="0.46558803170000002" green="0.78039215689999997" blue="0.46453753460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOnBtn3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oN3-Nv-JpV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <gestureRecognizers/>
@@ -49,6 +82,10 @@
                     </view>
                     <connections>
                         <outlet property="backLabel" destination="a7c-JA-JCY" id="L0e-Az-VnH"/>
+                        <outlet property="btnOption1" destination="HDl-tE-AUs" id="VVc-Q2-vIu"/>
+                        <outlet property="btnOption2" destination="rBZ-9O-h1N" id="Tvl-df-Woi"/>
+                        <outlet property="btnOption3" destination="qx0-ap-xwc" id="kaB-ci-va0"/>
+                        <outlet property="card" destination="Ts8-3W-8VO" id="yEc-AS-o9H"/>
                         <outlet property="frontLabel" destination="xzD-ZB-qsa" id="SSu-PR-esZ"/>
                     </connections>
                 </viewController>
