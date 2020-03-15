@@ -1,3 +1,30 @@
+## Lab 3
+
+### App Description
+This is a simple Flashcards app that allows a user to read a question on a card and tap on it for the correct answer. There is even a multiple choice option where clicking the right answer reveals the correct answer. Users can also create as many new cards they would like and scroll through their cards in the deck. They have the option to delete and edit them from the deck for more learning if they desire. It serves as a great studying tool!
+
+### App Walk-though
+
+## Adding and Scrolling Through Multiple cards
+<img src="https://media3.giphy.com/media/el1bZRi7ZnNZGcVOI0/giphy.webp" width=200><br>
+
+## Loading up Saved Data and Showing Deletion
+<img src="https://media1.giphy.com/media/ZBQ0gDUw5PH5FQgtVJ/giphy.webp" width=200><br>
+
+## Editing of a card
+<img src="https://media0.giphy.com/media/MZuryn3RbxOj0TeUbd/giphy.gif" width=200><br>
+
+
+## Required
+- [x] User can browse through multiple flashcards
+- [x] User can re-open the app and see previously created flashcards
+- [x] Push code to GitHub
+## Optional
+- [x] User can delete a flashcard
+- [x] User can edit existing flashcard
+- [x] User can store multiple choice questions
+
+----------------------------------------------------------------------------------------------------------------------------
 
 ## Flashcards App
 
