@@ -29,6 +29,7 @@ class CreationViewController: UIViewController{
     
     
     
+    
     override func viewDidLoad(){
         super.viewDidLoad()
         questionTextField.text = initialQuestion
@@ -65,6 +66,12 @@ class CreationViewController: UIViewController{
         
         let mc3text = multiplechoice3.text
         
+        // See if it is Existing
+        var isExisting = false
+        if initialQuestion != nil{
+            isExisting = true
+        }
+        
     
         // check if text empty
         if (questionText == nil || answerText == nil || questionText!.isEmpty || answerText!.isEmpty || mc1text == nil || mc3text == nil || mc1text!.isEmpty || mc3text!.isEmpty)
@@ -81,7 +88,7 @@ class CreationViewController: UIViewController{
              // Defaults to updated card if all text fields are filled in accordingly
             
         else{
-            flashcardsController.updateFlashcard(question: questionText!, answer: answerText!, mc1: mc1text!, mc3: mc3text!)
+            flashcardsController.updateFlashcard(question: questionText!, answer: answerText!, mc1: mc1text!, mc3: mc3text!, isExisting: isExisting )
             dismiss(animated: true)
         }
         
