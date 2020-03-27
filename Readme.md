@@ -1,3 +1,31 @@
+## Lab 4
+
+### App Description
+This is a stylized Flashcards app that allows a user to read a question on a card and tap on it for the correct answer. There is even multiple choice options where clicking the right answer reveals the correct answer. Users can also create as many new cards they would like and scroll through their cards in the deck. They have the option to delete and edit them from the deck for more learning if they desire. It serves as a great studying tool! App can now run properly on any iPhone phone.
+
+### App Walk-though
+
+## Shows stylized features: App icons, Animation, Randomized Multiple Choice
+<img src="https://media2.giphy.com/media/Pn6GwDJVktsulMKc1G/giphy.webp" width=200><br>
+
+## Running app on different phone: iPhone 8 Plus
+<img src="https://media0.giphy.com/media/XZVJ3MscnMA5zWOvHi/giphy.gif" width=200><br>
+
+
+## Required
+- [x] User should see the app icon 
+- [x] User should see a splash screen
+- [x] User should see an flip animation when revealing the answer
+- [x] User should see a slide animation when going to the next flashcard
+- [x] User should see a slide animation when going to the previous flashcard
+- [x] Push code to GitHub
+## Optional
+- [x] User should see a nicer flaschard with rounded corners, shadows, and animating when showing the first time
+- [x] User should see all views properly layout when using the app on a phone of different sizes
+- [x] Correct answer in multiple choice should be random
+
+----------------------------------------------------------------------------------------------------------------------------
+
 ## Lab 3
 
 ### App Description
